@@ -1,0 +1,171 @@
+/*
+Fonts:
+font-family: 'Fjalla One', sans-serif;
+font-family: 'PT Sans', sans-serif;
+*/
+
+body {
+  background-color: white;
+  margin: 0px;
+}
+
+/* NavBar */
+.Menu {
+  position: absolute;
+  width: 50%;
+  top: 1%;
+  right: 0%;
+}
+
+.NavButton {
+  font-size: 24px;
+  font-family: "PT Sans", sans-serif;
+  text-decoration: none;
+  text-align: center;
+  color: #333333;
+  width: 30%;
+  display: inline-block;
+  margin: 4px;
+}
+
+.CartButton {
+  position: absolute;
+  right: 0;
+  width: 64px;
+  display: inline-block;
+}
+
+#SiteHeader {
+  position: relative;
+}
+
+#Slogan {
+  position: absolute;
+  color: white;
+  font-size: 64px;
+  font-family: "Fjalla One", sans-serif;
+  width: 100%;
+  text-align: end;
+  top: 62%;
+  right: 2%;
+}
+
+.SiteLogo {
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  margin: 1%;
+}
+
+.LogoImage {
+  width: 164px;
+  object-fit: contain;
+}
+
+#SurveyLabel {
+  text-align: center;
+  font-size: 36px;
+  font-family: "PT Sans", sans-serif;
+}
+
+#SurveyButton {
+  display: block;
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: center;
+  font-family: "PT Sans", sans-serif;
+  font-size: 24px;
+  font-weight: bolder;
+  text-decoration: none;
+  padding: 15px;
+  border: 4px solid black;
+
+  border-radius: 8px;
+}
+
+#SiteImage {
+  height: 500px;
+  width: 100%;
+}
+
+/* About Us Section */
+
+#AboutUsHeader {
+  font-family: "PT Sans", sans-serif;
+  font-size: 28px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.AboutUsBlock {
+  display: inline-block;
+  width: 33%;
+}
+
+.LargeStat {
+  font-family: "PT Sans", sans-serif;
+  font-size: 24px;
+  color: blue;
+  text-align: center;
+}
+
+.SmallDescr {
+  font-family: "PT Sans", sans-serif;
+  font-size: 14px;
+  color: gray;
+  text-align: center;
+}
+
+/* Featured Section */
+
+#FeaturedTitle {
+  font-family: "PT Sans", sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
+
+.FeaturedImg {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.FeaturedName {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+}
+
+.FeaturedBlock {
+  display: inline-block;
+  width: 23%;
+  margin: 1%;
+  text-decoration: none;
+  color: black;
+}
+
+#site-logo {
+  display: inline-block;
+  height: 100%;
+  background-color: white;
+  margin: 8px;
+}
+
+.BoxedLayout {
+  background-color: white;
+  border: 2px solid black;
+  padding: 0.5%;
+}
+
+#bottom-left {
+  float: left;
+  width: 47%;
+  margin: 1%;
+  padding: 0.5%;
+}
+
+#bottom-right {
+  float: right;
+  width: 47%;
+  margin: 1%;
+  padding: 0.5%;
+}
