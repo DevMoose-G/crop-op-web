@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta
+      name="viewport"
+      content="initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+
+    <link rel="stylesheet" href="analytics.css" />
     <link rel="stylesheet" href="index.css" />
 
     <!-- Fonts -->
@@ -10,13 +16,6 @@
       href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=PT+Sans&display=swap"
       rel="stylesheet"
     />
-
-    <title>CropOp</title>
-  </head>
-  <body>
-    <div id="site-logo"></div>
-    <div id="nav-bar"></div>
-    <br />
 
     <!-- Load React -->
     <script
@@ -28,7 +27,54 @@
       crossorigin
     ></script>
 
+    <link
+      rel="stylesheet"
+      href="https://js.arcgis.com/4.20/esri/themes/light/main.css"
+    />
+
+    <script src="https://js.arcgis.com/4.20/"></script>
+
+    <script src="map.js"></script>
+
+    <title>CropOp</title>
+  </head>
+  <body>
+    <div id="nav-bar"></div>
+    <br /><br /><br /><br /><br /><br /><br /><br />
+    <div id="content"></div>
+
+    <!-- Climate Over Time Map -->
+    <style>
+      .embed-container {
+        position: relative;
+        padding-bottom: 80%;
+        height: 0;
+        max-width: 100%;
+      }
+      small {
+        position: absolute;
+        z-index: 40;
+        bottom: 0;
+        margin-bottom: -15px;
+      }
+    </style>
+    <div class="embed-container">
+      <iframe
+        width="600"
+        height="500"
+        max-width="500"
+        max-height="400"
+        frameborder="0"
+        scrolling="no"
+        marginheight="0"
+        marginwidth="0"
+        title="CropOp Observed and Predicted Climate Shifts (2020-2030)-Copy"
+        src="//meerqw7skvjrwl6q.maps.arcgis.com/apps/Embed/index.html?webmap=69a15efab48b474a913d2db62c3b8c6a&extent=93.494,-10.481,158.4012,26.2406&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&disable_scroll=true&theme=light"
+      ></iframe>
+    </div>
+
     <!-- My React components -->
     <script src="navbar.js"></script>
+    <script src="analytics.js"></script>
   </body>
 </html>

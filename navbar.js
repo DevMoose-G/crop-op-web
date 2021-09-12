@@ -23,13 +23,13 @@ function NavDropDown(props) {
   );
 }
 
-function CartButton(props) {
-  const cartImg = e("img", {
-    src: "imgs/cart.png",
+function SearchButton(props) {
+  const magImg = e("img", {
+    src: "imgs/search.png",
     width: "100%",
     display: "block",
   });
-  return e("a", { href: "", className: "CartButton" }, cartImg);
+  return e("a", { href: "", className: "SearchButton" }, magImg);
 }
 
 class NavBar extends React.Component {
@@ -38,10 +38,15 @@ class NavBar extends React.Component {
 
     const button1 = e(
       NavButton,
-      { name: "About Us", loc: "about-us.html" },
+      { name: "Partnerships", loc: "partnerships.html" },
       ""
     );
     const button2 = e(
+      NavButton,
+      { name: "About Us", loc: "about-us.html" },
+      ""
+    );
+    const button3 = e(
       NavButton,
       {
         name: "Analytics",
@@ -49,19 +54,22 @@ class NavBar extends React.Component {
       },
       ""
     );
-    const button3 = e(
+    const button4 = e(
       NavButton,
       { name: "Contact Us", loc: "contact-us.html" },
       ""
     );
-    const cartButton = e(CartButton, {});
+
+    const searchButton = e(SearchButton, {});
 
     return e(
       "div",
       { className: this.props.className },
       button1,
       button2,
-      button3
+      button3,
+      button4,
+      searchButton
     );
   }
 }

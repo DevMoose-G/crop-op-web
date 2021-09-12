@@ -1,0 +1,24 @@
+html,
+body,
+#arc-map {
+  padding: 0;
+  margin: 10%;
+  height: 80%;
+  width: 80%;
+}
+
+.embed-container {
+  padding: 0;
+  margin: 10%;
+  height: 80%;
+  width: 80%;
+}
+
+#arc-map {
+  margin-top: 0%;
+}
+
+#AnalyticsTitle {
+  font: bold 36px Arial;
+  text-align: center;
+}

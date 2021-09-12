@@ -23,15 +23,15 @@ body {
   text-decoration: none;
   text-align: center;
   color: #333333;
-  width: 30%;
+  width: 21%;
   display: inline-block;
   margin: 4px;
 }
 
-.CartButton {
+.SearchButton {
   position: absolute;
-  right: 0;
-  width: 64px;
+  right: 1%;
+  width: 42px;
   display: inline-block;
 }
 
@@ -52,6 +52,7 @@ body {
 
 .SiteLogo {
   position: absolute;
+  height: auto;
   top: 1%;
   left: 1%;
   margin: 1%;
