@@ -1,0 +1,16 @@
+/*
+Fonts:
+font-family: 'Fjalla One', sans-serif;
+font-family: 'PT Sans', sans-serif;
+*/
+
+#PartnershipTitle {
+  font-family: "PT Sans", sans-serif;
+  margin: 1%;
+}
+
+.PartnershipText {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  margin: 1%;
+}

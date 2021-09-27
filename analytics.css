@@ -1,24 +1,40 @@
-html,
-body,
-#arc-map {
-  padding: 0;
-  margin: 10%;
-  height: 80%;
-  width: 80%;
-}
+/*
+Fonts:
+font-family: 'Fjalla One', sans-serif;
+font-family: 'PT Sans', sans-serif;
+*/
 
 .embed-container {
   padding: 0;
-  margin: 10%;
-  height: 80%;
-  width: 80%;
+  margin: 2%;
+  height: auto;
 }
 
-#arc-map {
-  margin-top: 0%;
+small {
+  position: absolute;
+  z-index: 40;
+  bottom: 0;
+  margin-bottom: -15px;
+}
+
+.map {
+  width: 50%;
+  height: 450px;
+  display: inline-block;
 }
 
 #AnalyticsTitle {
-  font: bold 36px Arial;
+  font-family: "PT Sans", sans-serif;
+  font-size: 36px;
   text-align: center;
+}
+
+#MapDescription {
+  font-family: "PT Sans", sans-serif;
+  font-size: 24px;
+}
+#map-description {
+  display: inline-block;
+  width: 48%;
+  margin: 1%;
 }

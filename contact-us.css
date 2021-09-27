@@ -1,0 +1,35 @@
+.AboutUsBlock {
+  display: inline-block;
+  width: 27%;
+  margin: 3%;
+}
+
+.AboutUs_LinkImg {
+  width: 100%;
+  height: 8vw;
+  margin: 2%;
+  object-fit: contain;
+}
+
+#AboutUsLinks {
+  margin: 0% 20%;
+}
+
+.LargeStat {
+  font-family: "PT Sans", sans-serif;
+  font-size: 2.5vw;
+  color: blue;
+  text-align: center;
+  vertical-align: center;
+}
+
+.SmallDescr {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  color: gray;
+  text-align: center;
+}
+
+#AskUsForm {
+  margin: 1%;
+}

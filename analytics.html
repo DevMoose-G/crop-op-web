@@ -40,37 +40,23 @@
   </head>
   <body>
     <div id="nav-bar"></div>
-    <br /><br /><br /><br /><br /><br /><br /><br />
+    <br /><br /><br /><br /><br /><br /><br />
     <div id="content"></div>
 
     <!-- Climate Over Time Map -->
-    <style>
-      .embed-container {
-        position: relative;
-        padding-bottom: 80%;
-        height: 0;
-        max-width: 100%;
-      }
-      small {
-        position: absolute;
-        z-index: 40;
-        bottom: 0;
-        margin-bottom: -15px;
-      }
-    </style>
+
     <div class="embed-container">
       <iframe
-        width="600"
-        height="500"
-        max-width="500"
-        max-height="400"
+        class="map"
         frameborder="0"
         scrolling="no"
         marginheight="0"
         marginwidth="0"
+        align="left"
         title="CropOp Observed and Predicted Climate Shifts (2020-2030)-Copy"
         src="//meerqw7skvjrwl6q.maps.arcgis.com/apps/Embed/index.html?webmap=69a15efab48b474a913d2db62c3b8c6a&extent=93.494,-10.481,158.4012,26.2406&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&disable_scroll=true&theme=light"
       ></iframe>
+      <div id="map-description"></div>
     </div>
 
     <!-- My React components -->

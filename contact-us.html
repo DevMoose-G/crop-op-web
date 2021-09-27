@@ -2,6 +2,7 @@
 <html>
   <head>
     <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="contact-us.css" />
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -19,10 +20,43 @@
     <br />
     <br />
     <br />
+    <br />
+    <br />
+    <br />
     <div id="content">
-      <div id="survey"></div>
-      <div id="bottom-left"></div>
-      <div id="bottom-right"></div>
+      <p class="Header1">Contact Us</p>
+      <div id="AboutUsLinks">
+        <div class="AboutUsBlock">
+          <img class="AboutUs_LinkImg" src="imgs/email.png"></img>
+          <p class="SmallDescr">Email</p>
+        </div>
+        <div class="AboutUsBlock">
+          <img class="AboutUs_LinkImg" src="imgs/facebook.png"></img>
+          <p class="SmallDescr">Facebook Page</p>
+        </div>
+        <div class="AboutUsBlock">
+          <p class="LargeStat">888-555-5555</p>
+          <p class="SmallDescr">Phone Number</p>
+        </div>
+      </div>
+
+      <div>
+        <p class="Header2">Ask Us</p>
+        <form id="AskUsForm">
+          <label for="Name">Name: </label>
+          <input type="text" />
+          <br/>
+          <br />
+          <label for="Name">Email: </label>
+          <input type="text" />
+          <br />
+          <br />
+          <textarea name="Content" rows="5", cols="50" >Ask us anything!</textarea>
+          <br />
+          <br />
+          <input type="submit" val="Submit" />
+        </form>
+      </div>
     </div>
 
     <!-- Load React -->

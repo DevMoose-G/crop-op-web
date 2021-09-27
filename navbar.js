@@ -50,7 +50,7 @@ class NavBar extends React.Component {
       NavButton,
       {
         name: "Analytics",
-        loc: "analytics.html" /*links: ["databses.html"] */,
+        loc: "analytics.html",
       },
       ""
     );
